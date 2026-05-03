@@ -1,0 +1,13 @@
+Top Suspicious IPs:
+index=* sourcetype="access_combined_wcookie" status>=400
+| stats count by ip
+| sort - count
+
+Failed login attempts:
+index=* "failed password" 
+|stats count by ip 
+| sort - count
+
+Error logs:
+index=* sourcetype="access_combined_wcookie" status=400 
+| stats count by ip status
