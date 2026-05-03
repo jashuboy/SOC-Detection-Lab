@@ -50,7 +50,7 @@ index=* sourcetype="access_combined_wcookie" ip="192.168.1.20"
 ![error-analysis](Screenshots/error-analysis.png)
 
 ##Failed Logins
-![failed-logins](Screenshots/failed-logins.png)
+![failed-logins](Screenshots/Failed-logins.png)
 
 ##Top IPs Trying to Access
 ![top-IPs-trying-to-access](Screenshots/top_IPs_trying_to_access.png)
