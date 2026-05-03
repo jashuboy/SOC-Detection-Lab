@@ -24,6 +24,14 @@ index=* sourcetype="access_combined_wcookie" status>=400
 | sort - count
 
 ## Screenshots
+##Error Analysis
+![error-analysis](Screenshots/error-analysis)
+
+##Failed Logins
+![failed-logins](Screenshots/failed-logins)
+
+##Top IPs Trying to Access
+![top-IPs-trying-to-access](Screenshots/top_IPs_trying_to_access)
 
 ## Conclusion
 This project demonstrates how log analysis can be used to detect potential reconnaissance and suspicious behavior in web traffic.
